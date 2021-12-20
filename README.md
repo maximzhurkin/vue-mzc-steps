@@ -3,7 +3,7 @@ Simple Vue2 steps component
 
 ![](demo.gif)
 
-[Online demo](https://codesandbox.io/s/angry-morse-byc4p)
+[Online demo](https://codesandbox.io/s/angry-morse-byc4p?file=/src/App.vue)
 
 ## Installation
 ```sh
