@@ -13,6 +13,7 @@ npm install vue-mzc-steps --save
 ## Usage
 ```js
 import VueMzcSteps from "vue-mzc-steps";
+import "vue-mzc-steps/src/vue-mzc-steps.css";
 
 export default {
   components: {
