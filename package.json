@@ -12,6 +12,12 @@
     "url": "https://github.com/maximzhurkin/vue-mzc-steps/issues"
   },
   "homepage": "https://github.com/maximzhurkin/vue-mzc-steps#readme",
+  "keywords": [
+    "vuejs",
+    "vue",
+    "vuejs2",
+    "steps"
+  ],
 
   "main": "dist/vue-mzc-steps.ssr.js",
   "browser": "dist/vue-mzc-steps.esm.js",
