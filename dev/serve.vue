@@ -1,7 +1,6 @@
 <script>
 import Vue from "vue";
 import VueMzcSteps from "@/vue-mzc-steps.vue";
-import "../src/vue-mzc-steps.css";
 import "./serve.css";
 
 export default Vue.extend({
@@ -50,7 +49,7 @@ export default Vue.extend({
 <template>
   <div id="app">
     <div class="row">
-      <vue-mzc-steps :items="steps" :step="step" />
+      <vue-mzc-steps :items="steps" :step="step" theme="dark" />
     </div>
     <div class="row">
       <button @click="prev" :disable="step === 1">prev</button>

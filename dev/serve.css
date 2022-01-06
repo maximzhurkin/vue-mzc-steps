@@ -1,4 +1,8 @@
-html, body, #app {
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 #app {
@@ -13,26 +17,11 @@ html, body, #app {
   margin: 24px;
 }
 /* Styles for the dark theme */
-.vue-mzc-steps-line {
-  background-color: #373E46;
-}
-.vue-mzc-steps-line--filled {
-  background-color: #306EC4;
-}
-.vue-mzc-steps-item {
-  color: #75838F;
-}
-.vue-mzc-steps-item--active,
-.vue-mzc-steps-item--complete {
-  color: #C5D4E3;
-}
-.vue-mzc-steps-item__circle {
-  border-color: #373E46;
-  background-color: #22272E;
-  box-shadow: 0 0 0 4px #22272E;
-}
-.vue-mzc-steps-item--active .vue-mzc-steps-item__circle,
-.vue-mzc-steps-item--complete .vue-mzc-steps-item__circle {
-  background-color: #306EC4;
-  border-color: #306EC4;
+.vue-mzc-steps--dark {
+  --vue-mzc-steps-primary-color: #306EC4;
+  --vue-mzc-steps-background-color: #22272E;
+  --vue-mzc-steps-border-disable-color: #373E46;
+  --vue-mzc-steps-circle-active-color: #ffffff;
+  --vue-mzc-steps-text-disable-color: #75838F;
+  --vue-mzc-steps-text-active-color: #C5D4E3;
 }
