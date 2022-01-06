@@ -17,7 +17,7 @@ body,
   margin: 24px;
 }
 /* Styles for the dark theme */
-.vue-mzc-steps--dark {
+.vue-mzc-steps {
   --vue-mzc-steps-primary-color: #306EC4;
   --vue-mzc-steps-background-color: #22272E;
   --vue-mzc-steps-border-disable-color: #373E46;
